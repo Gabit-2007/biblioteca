@@ -1,6 +1,5 @@
-import { Link } from 'react-router';
-import Logo from '../assets/logo.png';
-import './rodape.scss';
+import Logo from '../../assets/logo.png';
+import './styles.scss';
 
 
 export default function Rodape() {

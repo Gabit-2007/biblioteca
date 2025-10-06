@@ -1,0 +1,12 @@
+.cartao{
+    display: flex;
+    .imagem{
+        img{
+            width: 20vw;
+
+        }
+    }
+    .inverter{
+        order: 1;
+    }
+}

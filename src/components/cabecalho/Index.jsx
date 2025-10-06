@@ -1,13 +1,17 @@
-import { Navegacao } from '../../routes.jsx';
 import { Link } from 'react-router';
+import Logo from '../../assets/logo.png';
+import './styles.scss';
+
 
 export default function Cabecalho() {
     return(
+        <div className='cabecalho'>
         <div>
-            <img src='./assets/logo.png' height={120}/>
-            <h1>Livraria Frei</h1>
-            <Link>Inicio</Link>
-            <Link>Entrar</Link>
+            <img src={ Logo } height={64} alt='Logo'/>
+            <p>Livraria Frei</p>
+            <Link to={'/'} >Inicio</Link>
+        </div>
+        <span></span>
         </div>
     );
 }
