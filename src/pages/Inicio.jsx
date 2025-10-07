@@ -1,6 +1,6 @@
 import Cabecalho from '../components/cabecalho'
 import Rodape from '../components/rodape'
-import Cartao from '../components/cartao/Index.jsx'
+import Cartao from '../components/cartao';
 import './index.scss'
 
 export default function Inicio(){
